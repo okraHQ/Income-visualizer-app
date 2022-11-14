@@ -1,0 +1,11 @@
+Process user income - http POST :8000/api/v1/income/process-income customer_id="61514d0c9f5fde1924da4aa3" version="2"
+
+Income check by customer id - http POST :8000/api/v1/income/get-by-customer customer="61514d0c9f5fde1924da4aa3" version="2"
+
+Income check using record id - http POST :8000/api/v1/income/get-by-record record="63634311b393040011f3d9c6" version="2"
+
+Income check using income id - http POST :8000/api/v1/income/get-by-id id="636343a1c54d2406f2ccbd75" version="2"
+
+Health Check - http GET :8000/api/v1/health-check
+
+
